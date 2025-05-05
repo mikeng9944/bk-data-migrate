@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_site_tmplvar_contentvalues",
+  "info": {
+    "singularName": "bkhk-site-tmplvar-contentvalues",
+    "pluralName": "bkhk-site-tmplvar-contentvaluess",
+    "displayName": "Bkhk site tmplvar contentvalues",
+    "description": "bkhk-site-tmplvar-contentvalues collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tmplvarid": {
+      "type": "integer",
+      "default": "0"
+    },
+    "contentid": {
+      "type": "integer",
+      "default": "0"
+    },
+    "value": {
+      "type": "text"
+    }
+  }
+}

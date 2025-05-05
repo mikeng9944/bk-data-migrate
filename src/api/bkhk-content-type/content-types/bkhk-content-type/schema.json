@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_content_type",
+  "info": {
+    "singularName": "bkhk-content-type",
+    "pluralName": "bkhk-content-types",
+    "displayName": "Bkhk content type",
+    "description": "bkhk-content-type collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "description": {
+      "type": "string"
+    },
+    "mime_type": {
+      "type": "string"
+    },
+    "file_extensions": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "text"
+    },
+    "binary": {
+      "type": "boolean",
+      "default": "0"
+    }
+  }
+}

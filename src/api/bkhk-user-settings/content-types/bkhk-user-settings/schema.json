@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_user_settings",
+  "info": {
+    "singularName": "bkhk-user-settings",
+    "pluralName": "bkhk-user-settingss",
+    "displayName": "Bkhk user settings",
+    "description": "bkhk-user-settings collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "user": {
+      "type": "integer",
+      "default": "0"
+    },
+    "key": {
+      "type": "string",
+      "default": "",
+      "maxLength": 50
+    },
+    "value": {
+      "type": "text"
+    },
+    "xtype": {
+      "type": "string",
+      "default": "textfield",
+      "maxLength": 75
+    },
+    "namespace": {
+      "type": "string",
+      "default": "core",
+      "maxLength": 40
+    },
+    "area": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "editedon": {
+      "type": "datetime"
+    }
+  }
+}

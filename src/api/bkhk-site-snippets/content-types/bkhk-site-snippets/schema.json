@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_site_snippets",
+  "info": {
+    "singularName": "bkhk-site-snippets",
+    "pluralName": "bkhk-site-snippetss",
+    "displayName": "Bkhk site snippets",
+    "description": "bkhk-site-snippets collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "source": {
+      "type": "integer",
+      "default": "0"
+    },
+    "property_preprocess": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "name": {
+      "type": "string",
+      "default": "",
+      "maxLength": 50
+    },
+    "description": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "editor_type": {
+      "type": "integer",
+      "default": "0"
+    },
+    "category": {
+      "type": "integer",
+      "default": "0"
+    },
+    "cache_type": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "snippet": {
+      "type": "text"
+    },
+    "locked": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "properties": {
+      "type": "text"
+    },
+    "moduleguid": {
+      "type": "string",
+      "default": "",
+      "maxLength": 32
+    },
+    "static": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "static_file": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    }
+  }
+}

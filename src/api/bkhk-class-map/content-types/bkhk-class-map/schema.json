@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_class_map",
+  "info": {
+    "singularName": "bkhk-class-map",
+    "pluralName": "bkhk-class-maps",
+    "displayName": "Bkhk class map",
+    "description": "bkhk-class-map collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "class": {
+      "type": "string",
+      "default": "",
+      "maxLength": 120
+    },
+    "parent_class": {
+      "type": "string",
+      "default": "",
+      "maxLength": 120
+    },
+    "name_field": {
+      "type": "string",
+      "default": "name",
+      "maxLength": 255
+    },
+    "path": {
+      "type": "string"
+    },
+    "lexicon": {
+      "type": "string",
+      "default": "core:resource",
+      "maxLength": 255
+    }
+  }
+}

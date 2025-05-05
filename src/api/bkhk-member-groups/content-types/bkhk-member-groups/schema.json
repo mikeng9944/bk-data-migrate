@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_member_groups",
+  "info": {
+    "singularName": "bkhk-member-groups",
+    "pluralName": "bkhk-member-groupss",
+    "displayName": "Bkhk member groups",
+    "description": "bkhk-member-groups collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "user_group": {
+      "type": "integer",
+      "default": "0"
+    },
+    "member": {
+      "type": "integer",
+      "default": "0"
+    },
+    "role": {
+      "type": "integer",
+      "default": "1"
+    },
+    "rank": {
+      "type": "integer",
+      "default": "0"
+    }
+  }
+}

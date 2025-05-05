@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_register_topics",
+  "info": {
+    "singularName": "bkhk-register-topics",
+    "pluralName": "bkhk-register-topicss",
+    "displayName": "Bkhk register topics",
+    "description": "bkhk-register-topics collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "queue": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "created": {
+      "type": "datetime"
+    },
+    "updated": {
+      "type": "datetime"
+    },
+    "options": {
+      "type": "text"
+    }
+  }
+}

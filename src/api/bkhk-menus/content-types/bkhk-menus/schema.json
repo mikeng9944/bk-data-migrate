@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_menus",
+  "info": {
+    "singularName": "bkhk-menus",
+    "pluralName": "bkhk-menuss",
+    "displayName": "Bkhk menus",
+    "description": "bkhk-menus collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "text": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "parent": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "action": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "description": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "icon": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "menuindex": {
+      "type": "integer",
+      "default": "0"
+    },
+    "params": {
+      "type": "text"
+    },
+    "handler": {
+      "type": "text"
+    },
+    "permissions": {
+      "type": "text"
+    },
+    "namespace": {
+      "type": "string",
+      "default": "core",
+      "maxLength": 100
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_context_resource",
+  "info": {
+    "singularName": "bkhk-context-resource",
+    "pluralName": "bkhk-context-resources",
+    "displayName": "Bkhk context resource",
+    "description": "bkhk-context-resource collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "context_key": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "resource": {
+      "type": "integer"
+    }
+  }
+}

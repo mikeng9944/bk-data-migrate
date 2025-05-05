@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_extension_packages",
+  "info": {
+    "singularName": "bkhk-extension-packages",
+    "pluralName": "bkhk-extension-packagess",
+    "displayName": "Bkhk extension packages",
+    "description": "bkhk-extension-packages collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "namespace": {
+      "type": "string",
+      "default": "core",
+      "maxLength": 40
+    },
+    "name": {
+      "type": "string",
+      "default": "core",
+      "maxLength": 100
+    },
+    "path": {
+      "type": "text"
+    },
+    "table_prefix": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "service_class": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "service_name": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    }
+  }
+}

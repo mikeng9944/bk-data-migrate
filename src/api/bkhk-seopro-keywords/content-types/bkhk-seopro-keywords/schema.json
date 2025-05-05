@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_seopro_keywords",
+  "info": {
+    "singularName": "bkhk-seopro-keywords",
+    "pluralName": "bkhk-seopro-keywordss",
+    "displayName": "Bkhk seopro keywords",
+    "description": "bkhk-seopro-keywords collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "resource": {
+      "type": "integer",
+      "default": "0"
+    },
+    "keywords": {
+      "type": "text"
+    }
+  }
+}

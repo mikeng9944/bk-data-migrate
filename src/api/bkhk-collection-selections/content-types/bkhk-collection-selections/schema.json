@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_collection_selections",
+  "info": {
+    "singularName": "bkhk-collection-selections",
+    "pluralName": "bkhk-collection-selectionss",
+    "displayName": "Bkhk collection selections",
+    "description": "bkhk-collection-selections collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "collection": {
+      "type": "integer"
+    },
+    "resource": {
+      "type": "integer"
+    },
+    "menuindex": {
+      "type": "integer",
+      "default": "0"
+    }
+  }
+}

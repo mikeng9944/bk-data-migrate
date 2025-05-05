@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_transport_providers",
+  "info": {
+    "singularName": "bkhk-transport-providers",
+    "pluralName": "bkhk-transport-providerss",
+    "displayName": "Bkhk transport providers",
+    "description": "bkhk-transport-providers collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "description": {
+      "type": "text"
+    },
+    "service_url": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "api_key": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "created": {
+      "type": "datetime"
+    },
+    "updated": {
+      "type": "datetime"
+    },
+    "active": {
+      "type": "boolean",
+      "default": "1"
+    },
+    "priority": {
+      "type": "integer",
+      "default": "10"
+    },
+    "properties": {
+      "type": "text"
+    }
+  }
+}

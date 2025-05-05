@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_system_eventnames",
+  "info": {
+    "singularName": "bkhk-system-eventnames",
+    "pluralName": "bkhk-system-eventnamess",
+    "displayName": "Bkhk system eventnames",
+    "description": "bkhk-system-eventnames collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "service": {
+      "type": "integer",
+      "default": "0"
+    },
+    "groupname": {
+      "type": "string",
+      "default": "",
+      "maxLength": 20
+    }
+  }
+}

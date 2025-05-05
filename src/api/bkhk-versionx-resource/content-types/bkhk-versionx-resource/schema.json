@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_versionx_resource",
+  "info": {
+    "singularName": "bkhk-versionx-resource",
+    "pluralName": "bkhk-versionx-resources",
+    "displayName": "Bkhk versionx resource",
+    "description": "bkhk-versionx-resource collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "version_id": {
+      "type": "integer"
+    },
+    "content_id": {
+      "type": "integer"
+    },
+    "saved": {
+      "type": "datetime"
+    },
+    "user": {
+      "type": "integer",
+      "default": "0"
+    },
+    "mode": {
+      "type": "string",
+      "default": "update",
+      "maxLength": 24
+    },
+    "marked": {
+      "type": "boolean",
+      "required": true,
+      "default": "0"
+    },
+    "title": {
+      "type": "string",
+      "default": "Unnamed",
+      "maxLength": 255
+    },
+    "context_key": {
+      "type": "string",
+      "default": "web",
+      "maxLength": 255
+    },
+    "class": {
+      "type": "string",
+      "default": "modDocument",
+      "maxLength": 255
+    },
+    "content": {
+      "type": "text"
+    },
+    "fields": {
+      "type": "text"
+    },
+    "tvs": {
+      "type": "text"
+    }
+  }
+}

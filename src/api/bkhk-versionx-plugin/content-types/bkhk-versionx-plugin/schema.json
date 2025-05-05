@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_versionx_plugin",
+  "info": {
+    "singularName": "bkhk-versionx-plugin",
+    "pluralName": "bkhk-versionx-plugins",
+    "displayName": "Bkhk versionx plugin",
+    "description": "bkhk-versionx-plugin collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "version_id": {
+      "type": "integer"
+    },
+    "content_id": {
+      "type": "integer"
+    },
+    "saved": {
+      "type": "datetime"
+    },
+    "user": {
+      "type": "integer",
+      "default": "0"
+    },
+    "mode": {
+      "type": "string",
+      "default": "update",
+      "maxLength": 24
+    },
+    "marked": {
+      "type": "boolean",
+      "required": true,
+      "default": "0"
+    },
+    "name": {
+      "type": "string",
+      "default": "",
+      "maxLength": 50
+    },
+    "description": {
+      "type": "string",
+      "default": "Chunk",
+      "maxLength": 255
+    },
+    "category": {
+      "type": "integer",
+      "default": "0"
+    },
+    "plugincode": {
+      "type": "text"
+    },
+    "locked": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "properties": {
+      "type": "text"
+    },
+    "disabled": {
+      "type": "boolean",
+      "default": "0"
+    }
+  }
+}

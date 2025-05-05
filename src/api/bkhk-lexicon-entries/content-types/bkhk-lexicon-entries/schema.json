@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_lexicon_entries",
+  "info": {
+    "singularName": "bkhk-lexicon-entries",
+    "pluralName": "bkhk-lexicon-entriess",
+    "displayName": "Bkhk lexicon entries",
+    "description": "bkhk-lexicon-entries collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "value": {
+      "type": "text"
+    },
+    "topic": {
+      "type": "string",
+      "default": "default",
+      "maxLength": 255
+    },
+    "namespace": {
+      "type": "string",
+      "default": "core",
+      "maxLength": 40
+    },
+    "language": {
+      "type": "string",
+      "default": "en",
+      "maxLength": 20
+    },
+    "createdon": {
+      "type": "datetime"
+    },
+    "editedon": {
+      "type": "datetime"
+    }
+  }
+}

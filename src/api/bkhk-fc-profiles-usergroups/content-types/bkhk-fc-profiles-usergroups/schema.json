@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_fc_profiles_usergroups",
+  "info": {
+    "singularName": "bkhk-fc-profiles-usergroups",
+    "pluralName": "bkhk-fc-profiles-usergroupss",
+    "displayName": "Bkhk fc profiles usergroups",
+    "description": "bkhk-fc-profiles-usergroups collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "usergroup": {
+      "type": "integer",
+      "default": "0"
+    },
+    "profile": {
+      "type": "integer",
+      "default": "0"
+    }
+  }
+}

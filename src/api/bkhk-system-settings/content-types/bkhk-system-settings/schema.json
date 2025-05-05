@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_system_settings",
+  "info": {
+    "singularName": "bkhk-system-settings",
+    "pluralName": "bkhk-system-settingss",
+    "displayName": "Bkhk system settings",
+    "description": "bkhk-system-settings collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "key": {
+      "type": "string",
+      "default": "",
+      "maxLength": 50
+    },
+    "value": {
+      "type": "text"
+    },
+    "xtype": {
+      "type": "string",
+      "default": "textfield",
+      "maxLength": 75
+    },
+    "namespace": {
+      "type": "string",
+      "default": "core",
+      "maxLength": 40
+    },
+    "area": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "editedon": {
+      "type": "datetime"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_dashboard",
+  "info": {
+    "singularName": "bkhk-dashboard",
+    "pluralName": "bkhk-dashboards",
+    "displayName": "Bkhk dashboard",
+    "description": "bkhk-dashboard collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "description": {
+      "type": "text"
+    },
+    "hide_trees": {
+      "type": "boolean",
+      "default": "0"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_access_policy_templates",
+  "info": {
+    "singularName": "bkhk-access-policy-templates",
+    "pluralName": "bkhk-access-policy-templatess",
+    "displayName": "Bkhk access policy templates",
+    "description": "bkhk-access-policy-templates collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "template_group": {
+      "type": "integer",
+      "default": "0"
+    },
+    "name": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "description": {
+      "type": "text"
+    },
+    "lexicon": {
+      "type": "string",
+      "default": "permissions",
+      "maxLength": 255
+    }
+  }
+}

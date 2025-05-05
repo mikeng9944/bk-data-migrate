@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_media_sources_contexts",
+  "info": {
+    "singularName": "bkhk-media-sources-contexts",
+    "pluralName": "bkhk-media-sources-contextss",
+    "displayName": "Bkhk media sources contexts",
+    "description": "bkhk-media-sources-contexts collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "source": {
+      "type": "integer",
+      "default": "0"
+    },
+    "context_key": {
+      "type": "string",
+      "default": "web",
+      "maxLength": 100
+    }
+  }
+}

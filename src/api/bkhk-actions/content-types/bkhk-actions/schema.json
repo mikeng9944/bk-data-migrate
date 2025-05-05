@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_actions",
+  "info": {
+    "singularName": "bkhk-actions",
+    "pluralName": "bkhk-actionss",
+    "displayName": "Bkhk actions",
+    "description": "bkhk-actions collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "namespace": {
+      "type": "string",
+      "default": "core",
+      "maxLength": 100
+    },
+    "controller": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "haslayout": {
+      "type": "boolean",
+      "default": "1"
+    },
+    "lang_topics": {
+      "type": "text"
+    },
+    "assets": {
+      "type": "text"
+    },
+    "help_url": {
+      "type": "text"
+    }
+  }
+}

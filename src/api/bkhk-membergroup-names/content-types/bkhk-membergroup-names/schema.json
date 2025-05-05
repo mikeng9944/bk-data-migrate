@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_membergroup_names",
+  "info": {
+    "singularName": "bkhk-membergroup-names",
+    "pluralName": "bkhk-membergroup-namess",
+    "displayName": "Bkhk membergroup names",
+    "description": "bkhk-membergroup-names collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "description": {
+      "type": "text"
+    },
+    "parent": {
+      "type": "integer",
+      "default": "0"
+    },
+    "rank": {
+      "type": "integer",
+      "default": "0"
+    },
+    "dashboard": {
+      "type": "integer",
+      "default": "1"
+    }
+  }
+}

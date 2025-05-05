@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_fc_profiles",
+  "info": {
+    "singularName": "bkhk-fc-profiles",
+    "pluralName": "bkhk-fc-profiless",
+    "displayName": "Bkhk fc profiles",
+    "description": "bkhk-fc-profiles collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "description": {
+      "type": "text"
+    },
+    "active": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "rank": {
+      "type": "integer",
+      "default": "0"
+    }
+  }
+}

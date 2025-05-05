@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_media_sources",
+  "info": {
+    "singularName": "bkhk-media-sources",
+    "pluralName": "bkhk-media-sourcess",
+    "displayName": "Bkhk media sources",
+    "description": "bkhk-media-sources collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "description": {
+      "type": "text"
+    },
+    "class_key": {
+      "type": "string",
+      "default": "sources.modFileMediaSource",
+      "maxLength": 100
+    },
+    "properties": {
+      "type": "text"
+    },
+    "is_stream": {
+      "type": "boolean",
+      "default": "1"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_context",
+  "info": {
+    "singularName": "bkhk-context",
+    "pluralName": "bkhk-contexts",
+    "displayName": "Bkhk context",
+    "description": "bkhk-context collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "key": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "description": {
+      "type": "string"
+    },
+    "rank": {
+      "type": "integer",
+      "default": "0"
+    }
+  }
+}

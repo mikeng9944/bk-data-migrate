@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_versionx_templatevar",
+  "info": {
+    "singularName": "bkhk-versionx-templatevar",
+    "pluralName": "bkhk-versionx-templatevars",
+    "displayName": "Bkhk versionx templatevar",
+    "description": "bkhk-versionx-templatevar collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "version_id": {
+      "type": "integer"
+    },
+    "content_id": {
+      "type": "integer"
+    },
+    "saved": {
+      "type": "datetime"
+    },
+    "user": {
+      "type": "integer",
+      "default": "0"
+    },
+    "mode": {
+      "type": "string",
+      "default": "update",
+      "maxLength": 24
+    },
+    "marked": {
+      "type": "boolean",
+      "required": true,
+      "default": "0"
+    },
+    "type": {
+      "type": "string",
+      "default": "",
+      "maxLength": 20
+    },
+    "name": {
+      "type": "string",
+      "default": "",
+      "maxLength": 50
+    },
+    "caption": {
+      "type": "string",
+      "default": "",
+      "maxLength": 80
+    },
+    "description": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "category": {
+      "type": "integer",
+      "default": "0"
+    },
+    "locked": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "rank": {
+      "type": "integer",
+      "default": "0"
+    },
+    "display": {
+      "type": "string",
+      "default": "",
+      "maxLength": 20
+    },
+    "default_text": {
+      "type": "string",
+      "maxLength": 2000
+    },
+    "properties": {
+      "type": "text"
+    },
+    "input_properties": {
+      "type": "text"
+    },
+    "output_properties": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_clientconfig_setting",
+  "info": {
+    "singularName": "bkhk-clientconfig-setting",
+    "pluralName": "bkhk-clientconfig-settings",
+    "displayName": "Bkhk clientconfig setting",
+    "description": "bkhk-clientconfig-setting collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "key": {
+      "type": "string",
+      "default": "",
+      "maxLength": 75
+    },
+    "label": {
+      "type": "string",
+      "default": "",
+      "maxLength": 75
+    },
+    "xtype": {
+      "type": "string",
+      "default": "",
+      "maxLength": 75
+    },
+    "description": {
+      "type": "text"
+    },
+    "is_required": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "sortorder": {
+      "type": "integer",
+      "default": "0"
+    },
+    "value": {
+      "type": "text"
+    },
+    "default": {
+      "type": "text"
+    },
+    "group": {
+      "type": "integer",
+      "required": true,
+      "default": "0"
+    },
+    "options": {
+      "type": "text"
+    }
+  }
+}

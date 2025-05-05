@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_migx_configs",
+  "info": {
+    "singularName": "bkhk-migx-configs",
+    "pluralName": "bkhk-migx-configss",
+    "displayName": "Bkhk migx configs",
+    "description": "bkhk-migx-configs collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "",
+      "maxLength": 100
+    },
+    "formtabs": {
+      "type": "text"
+    },
+    "contextmenus": {
+      "type": "text"
+    },
+    "actionbuttons": {
+      "type": "text"
+    },
+    "columnbuttons": {
+      "type": "text"
+    },
+    "filters": {
+      "type": "text"
+    },
+    "extended": {
+      "type": "text"
+    },
+    "columns": {
+      "type": "text"
+    },
+    "createdby": {
+      "type": "integer",
+      "default": "0"
+    },
+    "createdon": {
+      "type": "datetime"
+    },
+    "editedby": {
+      "type": "integer",
+      "default": "0"
+    },
+    "editedon": {
+      "type": "datetime"
+    },
+    "deleted": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "deletedon": {
+      "type": "datetime"
+    },
+    "deletedby": {
+      "type": "integer",
+      "default": "0"
+    },
+    "published": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "publishedon": {
+      "type": "datetime"
+    },
+    "publishedby": {
+      "type": "integer",
+      "default": "0"
+    }
+  }
+}

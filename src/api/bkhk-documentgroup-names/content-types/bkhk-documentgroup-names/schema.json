@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_documentgroup_names",
+  "info": {
+    "singularName": "bkhk-documentgroup-names",
+    "pluralName": "bkhk-documentgroup-namess",
+    "displayName": "Bkhk documentgroup names",
+    "description": "bkhk-documentgroup-names collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "private_memgroup": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "private_webgroup": {
+      "type": "boolean",
+      "default": "0"
+    }
+  }
+}

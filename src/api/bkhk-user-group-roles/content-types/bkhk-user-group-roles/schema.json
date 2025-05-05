@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_user_group_roles",
+  "info": {
+    "singularName": "bkhk-user-group-roles",
+    "pluralName": "bkhk-user-group-roless",
+    "displayName": "Bkhk user group roles",
+    "description": "bkhk-user-group-roles collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "description": {
+      "type": "text"
+    },
+    "authority": {
+      "type": "integer",
+      "default": "9999"
+    }
+  }
+}

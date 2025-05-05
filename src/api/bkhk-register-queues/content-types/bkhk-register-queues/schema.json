@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_register_queues",
+  "info": {
+    "singularName": "bkhk-register-queues",
+    "pluralName": "bkhk-register-queuess",
+    "displayName": "Bkhk register queues",
+    "description": "bkhk-register-queues collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "options": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_dashboard_widget",
+  "info": {
+    "singularName": "bkhk-dashboard-widget",
+    "pluralName": "bkhk-dashboard-widgets",
+    "displayName": "Bkhk dashboard widget",
+    "description": "bkhk-dashboard-widget collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "description": {
+      "type": "text"
+    },
+    "type": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "content": {
+      "type": "text"
+    },
+    "namespace": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "lexicon": {
+      "type": "string",
+      "default": "core:dashboards",
+      "maxLength": 255
+    },
+    "size": {
+      "type": "string",
+      "default": "half",
+      "maxLength": 255
+    }
+  }
+}

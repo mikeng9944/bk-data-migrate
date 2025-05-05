@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_session",
+  "info": {
+    "singularName": "bkhk-session",
+    "pluralName": "bkhk-sessions",
+    "displayName": "Bkhk session",
+    "description": "bkhk-session collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "access": {
+      "type": "integer"
+    },
+    "data": {
+      "type": "text"
+    }
+  }
+}

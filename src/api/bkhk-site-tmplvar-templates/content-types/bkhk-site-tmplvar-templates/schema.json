@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_site_tmplvar_templates",
+  "info": {
+    "singularName": "bkhk-site-tmplvar-templates",
+    "pluralName": "bkhk-site-tmplvar-templatess",
+    "displayName": "Bkhk site tmplvar templates",
+    "description": "bkhk-site-tmplvar-templates collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tmplvarid": {
+      "type": "integer",
+      "default": "0"
+    },
+    "templateid": {
+      "type": "integer",
+      "default": "0"
+    },
+    "rank": {
+      "type": "integer",
+      "default": "0"
+    }
+  }
+}

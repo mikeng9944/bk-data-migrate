@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_migx_formtabs",
+  "info": {
+    "singularName": "bkhk-migx-formtabs",
+    "pluralName": "bkhk-migx-formtabss",
+    "displayName": "Bkhk migx formtabs",
+    "description": "bkhk-migx-formtabs collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "config_id": {
+      "type": "integer",
+      "default": "0"
+    },
+    "caption": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "pos": {
+      "type": "integer",
+      "default": "0"
+    },
+    "print_before_tabs": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "extended": {
+      "type": "text"
+    }
+  }
+}

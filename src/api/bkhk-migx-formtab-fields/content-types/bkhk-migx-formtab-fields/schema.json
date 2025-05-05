@@ -1,0 +1,89 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_migx_formtab_fields",
+  "info": {
+    "singularName": "bkhk-migx-formtab-fields",
+    "pluralName": "bkhk-migx-formtab-fieldss",
+    "displayName": "Bkhk migx formtab fields",
+    "description": "bkhk-migx-formtab-fields collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "config_id": {
+      "type": "integer",
+      "default": "0"
+    },
+    "formtab_id": {
+      "type": "integer",
+      "default": "0"
+    },
+    "field": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "caption": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "description": {
+      "type": "text"
+    },
+    "pos": {
+      "type": "integer",
+      "default": "0"
+    },
+    "description_is_code": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "inputTV": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "inputTVtype": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "validation": {
+      "type": "text"
+    },
+    "configs": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "restrictive_condition": {
+      "type": "text"
+    },
+    "display": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "sourceFrom": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "sources": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "inputOptionValues": {
+      "type": "text"
+    },
+    "default": {
+      "type": "text"
+    },
+    "extended": {
+      "type": "text"
+    }
+  }
+}

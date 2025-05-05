@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_site_tmplvars",
+  "info": {
+    "singularName": "bkhk-site-tmplvars",
+    "pluralName": "bkhk-site-tmplvarss",
+    "displayName": "Bkhk site tmplvars",
+    "description": "bkhk-site-tmplvars collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "source": {
+      "type": "integer",
+      "default": "0"
+    },
+    "property_preprocess": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "type": {
+      "type": "string",
+      "default": "",
+      "maxLength": 20
+    },
+    "name": {
+      "type": "string",
+      "default": "",
+      "maxLength": 50
+    },
+    "caption": {
+      "type": "string",
+      "default": "",
+      "maxLength": 80
+    },
+    "description": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "editor_type": {
+      "type": "integer",
+      "default": "0"
+    },
+    "category": {
+      "type": "integer",
+      "default": "0"
+    },
+    "locked": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "elements": {
+      "type": "text"
+    },
+    "rank": {
+      "type": "integer",
+      "default": "0"
+    },
+    "display": {
+      "type": "string",
+      "default": "",
+      "maxLength": 20
+    },
+    "default_text": {
+      "type": "text"
+    },
+    "properties": {
+      "type": "text"
+    },
+    "input_properties": {
+      "type": "text"
+    },
+    "output_properties": {
+      "type": "text"
+    },
+    "static": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "static_file": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    }
+  }
+}

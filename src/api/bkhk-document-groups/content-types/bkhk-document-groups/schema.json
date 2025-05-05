@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_document_groups",
+  "info": {
+    "singularName": "bkhk-document-groups",
+    "pluralName": "bkhk-document-groupss",
+    "displayName": "Bkhk document groups",
+    "description": "bkhk-document-groups collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "document_group": {
+      "type": "integer",
+      "default": "0"
+    },
+    "document": {
+      "type": "integer",
+      "default": "0"
+    }
+  }
+}

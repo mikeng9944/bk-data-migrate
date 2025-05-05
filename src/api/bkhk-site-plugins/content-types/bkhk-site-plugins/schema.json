@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_site_plugins",
+  "info": {
+    "singularName": "bkhk-site-plugins",
+    "pluralName": "bkhk-site-pluginss",
+    "displayName": "Bkhk site plugins",
+    "description": "bkhk-site-plugins collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "source": {
+      "type": "integer",
+      "default": "0"
+    },
+    "property_preprocess": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "name": {
+      "type": "string",
+      "default": "",
+      "maxLength": 50
+    },
+    "description": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "editor_type": {
+      "type": "integer",
+      "default": "0"
+    },
+    "category": {
+      "type": "integer",
+      "default": "0"
+    },
+    "cache_type": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "plugincode": {
+      "type": "text"
+    },
+    "locked": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "properties": {
+      "type": "text"
+    },
+    "disabled": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "moduleguid": {
+      "type": "string",
+      "default": "",
+      "maxLength": 32
+    },
+    "static": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "static_file": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    }
+  }
+}

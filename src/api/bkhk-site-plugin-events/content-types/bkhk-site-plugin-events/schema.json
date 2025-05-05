@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_site_plugin_events",
+  "info": {
+    "singularName": "bkhk-site-plugin-events",
+    "pluralName": "bkhk-site-plugin-eventss",
+    "displayName": "Bkhk site plugin events",
+    "description": "bkhk-site-plugin-events collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "pluginid": {
+      "type": "integer",
+      "default": "0"
+    },
+    "event": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "priority": {
+      "type": "integer",
+      "default": "0"
+    },
+    "propertyset": {
+      "type": "integer",
+      "default": "0"
+    }
+  }
+}

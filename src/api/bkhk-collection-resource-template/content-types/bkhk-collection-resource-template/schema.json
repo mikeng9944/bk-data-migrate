@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_collection_resource_template",
+  "info": {
+    "singularName": "bkhk-collection-resource-template",
+    "pluralName": "bkhk-collection-resource-templates",
+    "displayName": "Bkhk collection resource template",
+    "description": "bkhk-collection-resource-template collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "collection_template": {
+      "type": "integer"
+    },
+    "resource_template": {
+      "type": "integer"
+    }
+  }
+}

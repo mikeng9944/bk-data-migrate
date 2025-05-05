@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_collection_settings",
+  "info": {
+    "singularName": "bkhk-collection-settings",
+    "pluralName": "bkhk-collection-settingss",
+    "displayName": "Bkhk collection settings",
+    "description": "bkhk-collection-settings collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "collection": {
+      "type": "integer"
+    },
+    "template": {
+      "type": "integer",
+      "default": "0"
+    }
+  }
+}

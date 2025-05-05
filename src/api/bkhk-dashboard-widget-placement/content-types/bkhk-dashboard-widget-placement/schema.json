@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_dashboard_widget_placement",
+  "info": {
+    "singularName": "bkhk-dashboard-widget-placement",
+    "pluralName": "bkhk-dashboard-widget-placements",
+    "displayName": "Bkhk dashboard widget placement",
+    "description": "bkhk-dashboard-widget-placement collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "dashboard": {
+      "type": "integer",
+      "default": "0"
+    },
+    "widget": {
+      "type": "integer",
+      "default": "0"
+    },
+    "rank": {
+      "type": "integer",
+      "default": "0"
+    }
+  }
+}

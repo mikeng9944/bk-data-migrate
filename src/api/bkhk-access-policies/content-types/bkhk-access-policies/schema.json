@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_access_policies",
+  "info": {
+    "singularName": "bkhk-access-policies",
+    "pluralName": "bkhk-access-policiess",
+    "displayName": "Bkhk access policies",
+    "description": "bkhk-access-policies collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "description": {
+      "type": "text"
+    },
+    "parent": {
+      "type": "integer",
+      "default": "0"
+    },
+    "template": {
+      "type": "integer",
+      "default": "0"
+    },
+    "class": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "data": {
+      "type": "text"
+    },
+    "lexicon": {
+      "type": "string",
+      "default": "permissions",
+      "maxLength": 255
+    }
+  }
+}

@@ -4,14 +4,41 @@
   "info": {
     "singularName": "demo",
     "pluralName": "demos",
-    "displayName": "Demo"
+    "displayName": "Demo",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "attributes": {
-    "Name": {
+    "Text": {
       "type": "string"
+    },
+    "RichText": {
+      "type": "richtext"
+    },
+    "Media": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Integer": {
+      "type": "integer"
+    },
+    "Decimal": {
+      "type": "decimal"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "DateTime": {
+      "type": "datetime"
     }
   }
 }

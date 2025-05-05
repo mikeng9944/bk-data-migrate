@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_actiondom",
+  "info": {
+    "singularName": "bkhk-actiondom",
+    "pluralName": "bkhk-actiondoms",
+    "displayName": "Bkhk actiondom",
+    "description": "bkhk-actiondom collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "set": {
+      "type": "integer",
+      "default": "0"
+    },
+    "action": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "name": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "description": {
+      "type": "text"
+    },
+    "xtype": {
+      "type": "string",
+      "default": "",
+      "maxLength": 100
+    },
+    "container": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "rule": {
+      "type": "string",
+      "default": "",
+      "maxLength": 100
+    },
+    "value": {
+      "type": "text"
+    },
+    "constraint": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "constraint_field": {
+      "type": "string",
+      "default": "",
+      "maxLength": 100
+    },
+    "constraint_class": {
+      "type": "string",
+      "default": "",
+      "maxLength": 100
+    },
+    "active": {
+      "type": "boolean",
+      "default": "1"
+    },
+    "for_parent": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "rank": {
+      "type": "integer",
+      "default": "0"
+    }
+  }
+}

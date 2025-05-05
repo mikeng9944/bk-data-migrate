@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_actions_fields",
+  "info": {
+    "singularName": "bkhk-actions-fields",
+    "pluralName": "bkhk-actions-fieldss",
+    "displayName": "Bkhk actions fields",
+    "description": "bkhk-actions-fields collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "action": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "name": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "type": {
+      "type": "string",
+      "default": "field",
+      "maxLength": 100
+    },
+    "tab": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "form": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "other": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "rank": {
+      "type": "integer",
+      "default": "0"
+    }
+  }
+}

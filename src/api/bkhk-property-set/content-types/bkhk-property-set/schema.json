@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_property_set",
+  "info": {
+    "singularName": "bkhk-property-set",
+    "pluralName": "bkhk-property-sets",
+    "displayName": "Bkhk property set",
+    "description": "bkhk-property-set collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "",
+      "maxLength": 50
+    },
+    "category": {
+      "type": "integer",
+      "default": "0"
+    },
+    "description": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "properties": {
+      "type": "text"
+    }
+  }
+}

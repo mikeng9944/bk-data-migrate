@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_clientconfig_group",
+  "info": {
+    "singularName": "bkhk-clientconfig-group",
+    "pluralName": "bkhk-clientconfig-groups",
+    "displayName": "Bkhk clientconfig group",
+    "description": "bkhk-clientconfig-group collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "label": {
+      "type": "string",
+      "default": "",
+      "maxLength": 75
+    },
+    "description": {
+      "type": "text"
+    },
+    "sortorder": {
+      "type": "integer",
+      "default": "0"
+    }
+  }
+}

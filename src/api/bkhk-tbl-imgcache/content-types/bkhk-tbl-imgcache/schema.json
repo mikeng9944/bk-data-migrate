@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_tbl_imgcache",
+  "info": {
+    "singularName": "bkhk-tbl-imgcache",
+    "pluralName": "bkhk-tbl-imgcaches",
+    "displayName": "Bkhk tbl imgcache",
+    "description": "bkhk-tbl-imgcache collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "img_id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "extensions": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "server_path": {
+      "type": "text"
+    },
+    "size": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "integer"
+    },
+    "query_str": {
+      "type": "text"
+    },
+    "md5name": {
+      "type": "text"
+    },
+    "cachedate": {
+      "type": "datetime"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_categories_closure",
+  "info": {
+    "singularName": "bkhk-categories-closure",
+    "pluralName": "bkhk-categories-closures",
+    "displayName": "Bkhk categories closure",
+    "description": "bkhk-categories-closure collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ancestor": {
+      "type": "integer",
+      "default": "0"
+    },
+    "descendant": {
+      "type": "integer",
+      "default": "0"
+    },
+    "depth": {
+      "type": "integer",
+      "default": "0"
+    }
+  }
+}

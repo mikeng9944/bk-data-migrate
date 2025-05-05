@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_transport_packages",
+  "info": {
+    "singularName": "bkhk-transport-packages",
+    "pluralName": "bkhk-transport-packagess",
+    "displayName": "Bkhk transport packages",
+    "description": "bkhk-transport-packages collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "signature": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "created": {
+      "type": "datetime"
+    },
+    "updated": {
+      "type": "datetime"
+    },
+    "installed": {
+      "type": "datetime"
+    },
+    "state": {
+      "type": "boolean",
+      "default": "1"
+    },
+    "workspace": {
+      "type": "integer",
+      "default": "0"
+    },
+    "provider": {
+      "type": "integer",
+      "default": "0"
+    },
+    "disabled": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "source": {
+      "type": "string"
+    },
+    "manifest": {
+      "type": "text"
+    },
+    "attributes": {
+      "type": "text"
+    },
+    "package_name": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "metadata": {
+      "type": "text"
+    },
+    "version_major": {
+      "type": "integer",
+      "default": "0"
+    },
+    "version_minor": {
+      "type": "integer",
+      "default": "0"
+    },
+    "version_patch": {
+      "type": "integer",
+      "default": "0"
+    },
+    "release": {
+      "type": "string",
+      "default": "",
+      "maxLength": 100
+    },
+    "release_index": {
+      "type": "integer",
+      "default": "0"
+    }
+  }
+}

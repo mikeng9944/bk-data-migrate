@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_users",
+  "info": {
+    "singularName": "bkhk-users",
+    "pluralName": "bkhk-userss",
+    "displayName": "Bkhk users",
+    "description": "bkhk-users collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "username": {
+      "type": "string",
+      "default": "",
+      "maxLength": 100
+    },
+    "password": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "cachepwd": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "class_key": {
+      "type": "string",
+      "default": "modUser",
+      "maxLength": 100
+    },
+    "active": {
+      "type": "boolean",
+      "default": "1"
+    },
+    "remote_key": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "remote_data": {
+      "type": "text"
+    },
+    "hash_class": {
+      "type": "string",
+      "default": "hashing.modNative",
+      "maxLength": 100
+    },
+    "salt": {
+      "type": "string",
+      "default": "",
+      "maxLength": 100
+    },
+    "primary_group": {
+      "type": "integer",
+      "default": "0"
+    },
+    "session_stale": {
+      "type": "text"
+    },
+    "sudo": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "createdon": {
+      "type": "integer",
+      "default": "0"
+    }
+  }
+}

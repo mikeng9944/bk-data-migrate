@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_register_messages",
+  "info": {
+    "singularName": "bkhk-register-messages",
+    "pluralName": "bkhk-register-messagess",
+    "displayName": "Bkhk register messages",
+    "description": "bkhk-register-messages collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "topic": {
+      "type": "integer"
+    },
+    "created": {
+      "type": "datetime"
+    },
+    "valid": {
+      "type": "datetime"
+    },
+    "accessed": {
+      "type": "datetime"
+    },
+    "accesses": {
+      "type": "integer",
+      "default": "0"
+    },
+    "expires": {
+      "type": "integer",
+      "default": "0"
+    },
+    "payload": {
+      "type": "text"
+    },
+    "kill": {
+      "type": "boolean",
+      "default": "0"
+    }
+  }
+}

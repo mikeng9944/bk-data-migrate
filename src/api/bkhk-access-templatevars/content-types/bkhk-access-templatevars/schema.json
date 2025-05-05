@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_access_templatevars",
+  "info": {
+    "singularName": "bkhk-access-templatevars",
+    "pluralName": "bkhk-access-templatevarss",
+    "displayName": "Bkhk access templatevars",
+    "description": "bkhk-access-templatevars collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "target": {
+      "type": "string",
+      "default": "",
+      "maxLength": 100
+    },
+    "principal_class": {
+      "type": "string",
+      "default": "modPrincipal",
+      "maxLength": 100
+    },
+    "principal": {
+      "type": "integer",
+      "default": "0"
+    },
+    "authority": {
+      "type": "integer",
+      "default": "9999"
+    },
+    "policy": {
+      "type": "integer",
+      "default": "0"
+    },
+    "context_key": {
+      "type": "string",
+      "default": "",
+      "maxLength": 100
+    }
+  }
+}

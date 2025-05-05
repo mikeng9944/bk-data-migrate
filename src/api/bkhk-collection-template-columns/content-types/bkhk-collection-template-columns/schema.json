@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_collection_template_columns",
+  "info": {
+    "singularName": "bkhk-collection-template-columns",
+    "pluralName": "bkhk-collection-template-columnss",
+    "displayName": "Bkhk collection template columns",
+    "description": "bkhk-collection-template-columns collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "template": {
+      "type": "integer"
+    },
+    "label": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "hidden": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "sortable": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "width": {
+      "type": "integer",
+      "default": "100"
+    },
+    "editor": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "renderer": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "php_renderer": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "position": {
+      "type": "integer",
+      "default": "0"
+    },
+    "sort_type": {
+      "type": "string",
+      "maxLength": 64
+    }
+  }
+}

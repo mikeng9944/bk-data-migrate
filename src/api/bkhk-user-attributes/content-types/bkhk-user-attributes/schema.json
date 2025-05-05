@@ -1,0 +1,123 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_user_attributes",
+  "info": {
+    "singularName": "bkhk-user-attributes",
+    "pluralName": "bkhk-user-attributess",
+    "displayName": "Bkhk user attributes",
+    "description": "bkhk-user-attributes collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "internalKey": {
+      "type": "integer"
+    },
+    "fullname": {
+      "type": "string",
+      "default": "",
+      "maxLength": 100
+    },
+    "email": {
+      "type": "string",
+      "default": "",
+      "maxLength": 100
+    },
+    "phone": {
+      "type": "string",
+      "default": "",
+      "maxLength": 100
+    },
+    "mobilephone": {
+      "type": "string",
+      "default": "",
+      "maxLength": 100
+    },
+    "blocked": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "blockeduntil": {
+      "type": "integer",
+      "default": "0"
+    },
+    "blockedafter": {
+      "type": "integer",
+      "default": "0"
+    },
+    "logincount": {
+      "type": "integer",
+      "default": "0"
+    },
+    "lastlogin": {
+      "type": "integer",
+      "default": "0"
+    },
+    "thislogin": {
+      "type": "integer",
+      "default": "0"
+    },
+    "failedlogincount": {
+      "type": "integer",
+      "default": "0"
+    },
+    "sessionid": {
+      "type": "string",
+      "default": "",
+      "maxLength": 100
+    },
+    "dob": {
+      "type": "integer",
+      "default": "0"
+    },
+    "gender": {
+      "type": "integer",
+      "default": "0"
+    },
+    "address": {
+      "type": "text"
+    },
+    "country": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "city": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "state": {
+      "type": "string",
+      "default": "",
+      "maxLength": 25
+    },
+    "zip": {
+      "type": "string",
+      "default": "",
+      "maxLength": 25
+    },
+    "fax": {
+      "type": "string",
+      "default": "",
+      "maxLength": 100
+    },
+    "photo": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "comment": {
+      "type": "text"
+    },
+    "website": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "extended": {
+      "type": "text"
+    }
+  }
+}

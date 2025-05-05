@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_access_permissions",
+  "info": {
+    "singularName": "bkhk-access-permissions",
+    "pluralName": "bkhk-access-permissionss",
+    "displayName": "Bkhk access permissions",
+    "description": "bkhk-access-permissions collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "template": {
+      "type": "integer",
+      "default": "0"
+    },
+    "name": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "description": {
+      "type": "text"
+    },
+    "value": {
+      "type": "boolean",
+      "default": "1"
+    }
+  }
+}

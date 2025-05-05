@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_categories",
+  "info": {
+    "singularName": "bkhk-categories",
+    "pluralName": "bkhk-categoriess",
+    "displayName": "Bkhk categories",
+    "description": "bkhk-categories collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "parent": {
+      "type": "integer",
+      "required": true,
+      "default": "0"
+    },
+    "category": {
+      "type": "string",
+      "default": "",
+      "maxLength": 45
+    },
+    "rank": {
+      "type": "integer",
+      "default": "0"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_migx_config_elements",
+  "info": {
+    "singularName": "bkhk-migx-config-elements",
+    "pluralName": "bkhk-migx-config-elementss",
+    "displayName": "Bkhk migx config elements",
+    "description": "bkhk-migx-config-elements collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "config_id": {
+      "type": "integer",
+      "default": "0"
+    },
+    "element_id": {
+      "type": "integer",
+      "default": "0"
+    },
+    "rank": {
+      "type": "integer",
+      "default": "0"
+    },
+    "createdby": {
+      "type": "integer",
+      "default": "0"
+    },
+    "createdon": {
+      "type": "datetime"
+    },
+    "editedby": {
+      "type": "integer",
+      "default": "0"
+    },
+    "editedon": {
+      "type": "datetime"
+    },
+    "deleted": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "deletedon": {
+      "type": "datetime"
+    },
+    "deletedby": {
+      "type": "integer",
+      "default": "0"
+    },
+    "published": {
+      "type": "boolean",
+      "default": "0"
+    },
+    "publishedon": {
+      "type": "datetime"
+    },
+    "publishedby": {
+      "type": "integer",
+      "default": "0"
+    }
+  }
+}

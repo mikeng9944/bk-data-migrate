@@ -1,5 +1,5 @@
 /**
- * category service
+ * demo service
  */
 
 import { factories } from "@strapi/strapi";

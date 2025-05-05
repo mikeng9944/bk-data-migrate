@@ -1,0 +1,158 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_collection_templates",
+  "info": {
+    "singularName": "bkhk-collection-templates",
+    "pluralName": "bkhk-collection-templatess",
+    "displayName": "Bkhk collection templates",
+    "description": "bkhk-collection-templates collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "description": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "global_template": {
+      "type": "integer",
+      "default": "0"
+    },
+    "bulk_actions": {
+      "type": "integer",
+      "default": "0"
+    },
+    "allow_dd": {
+      "type": "integer",
+      "default": "1"
+    },
+    "page_size": {
+      "type": "integer",
+      "default": "20"
+    },
+    "sort_field": {
+      "type": "string",
+      "default": "id",
+      "maxLength": 100
+    },
+    "sort_dir": {
+      "type": "string",
+      "default": "asc",
+      "maxLength": 4
+    },
+    "sort_type": {
+      "type": "string",
+      "maxLength": 64
+    },
+    "child_template": {
+      "type": "integer"
+    },
+    "child_resource_type": {
+      "type": "string",
+      "default": "modDocument",
+      "maxLength": 100
+    },
+    "resource_type_selection": {
+      "type": "integer",
+      "default": "1"
+    },
+    "tab_label": {
+      "type": "string",
+      "default": "collections.children",
+      "maxLength": 255
+    },
+    "button_label": {
+      "type": "string",
+      "default": "collections.children.create",
+      "maxLength": 255
+    },
+    "content_place": {
+      "type": "string",
+      "default": "original",
+      "maxLength": 255
+    },
+    "view_for": {
+      "type": "integer",
+      "default": "0"
+    },
+    "link_label": {
+      "type": "string",
+      "default": "selections.create",
+      "maxLength": 255
+    },
+    "context_menu": {
+      "type": "string",
+      "maxLength": 512
+    },
+    "buttons": {
+      "type": "string",
+      "maxLength": 512
+    },
+    "allowed_resource_types": {
+      "type": "string",
+      "default": "",
+      "maxLength": 512
+    },
+    "back_to_collection_label": {
+      "type": "string",
+      "default": "collections.children.back_to_collection_label",
+      "maxLength": 255
+    },
+    "back_to_selection_label": {
+      "type": "string",
+      "default": "selections.back_to_selection_label",
+      "maxLength": 255
+    },
+    "selection_create_sort": {
+      "type": "string",
+      "default": "id:desc",
+      "maxLength": 255
+    },
+    "child_hide_from_menu": {
+      "type": "integer"
+    },
+    "child_published": {
+      "type": "integer"
+    },
+    "child_cacheable": {
+      "type": "integer"
+    },
+    "child_searchable": {
+      "type": "integer"
+    },
+    "child_richtext": {
+      "type": "integer"
+    },
+    "child_content_type": {
+      "type": "integer",
+      "default": "0"
+    },
+    "parent": {
+      "type": "string",
+      "default": "",
+      "maxLength": 100
+    },
+    "child_content_disposition": {
+      "type": "integer"
+    },
+    "permanent_sort_before": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "permanent_sort_after": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "selection_link_condition": {
+      "type": "text"
+    }
+  }
+}

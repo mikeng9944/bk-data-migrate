@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_manager_log",
+  "info": {
+    "singularName": "bkhk-manager-log",
+    "pluralName": "bkhk-manager-logs",
+    "displayName": "Bkhk manager log",
+    "description": "bkhk-manager-log collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "user": {
+      "type": "integer",
+      "default": "0"
+    },
+    "occurred": {
+      "type": "datetime"
+    },
+    "action": {
+      "type": "string",
+      "default": "",
+      "maxLength": 100
+    },
+    "classKey": {
+      "type": "string",
+      "default": "",
+      "maxLength": 100
+    },
+    "item": {
+      "type": "string",
+      "default": "0",
+      "maxLength": 255
+    }
+  }
+}

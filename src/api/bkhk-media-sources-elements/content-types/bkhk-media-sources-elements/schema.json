@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_media_sources_elements",
+  "info": {
+    "singularName": "bkhk-media-sources-elements",
+    "pluralName": "bkhk-media-sources-elementss",
+    "displayName": "Bkhk media sources elements",
+    "description": "bkhk-media-sources-elements collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "source": {
+      "type": "integer",
+      "default": "0"
+    },
+    "object_class": {
+      "type": "string",
+      "default": "modTemplateVar",
+      "maxLength": 100
+    },
+    "object": {
+      "type": "integer",
+      "default": "0"
+    },
+    "context_key": {
+      "type": "string",
+      "default": "web",
+      "maxLength": 100
+    }
+  }
+}

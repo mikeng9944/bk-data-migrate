@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_user_messages",
+  "info": {
+    "singularName": "bkhk-user-messages",
+    "pluralName": "bkhk-user-messagess",
+    "displayName": "Bkhk user messages",
+    "description": "bkhk-user-messages collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "type": {
+      "type": "string",
+      "default": "",
+      "maxLength": 15
+    },
+    "subject": {
+      "type": "string",
+      "default": "",
+      "maxLength": 255
+    },
+    "message": {
+      "type": "text"
+    },
+    "sender": {
+      "type": "integer",
+      "default": "0"
+    },
+    "recipient": {
+      "type": "integer",
+      "default": "0"
+    },
+    "private": {
+      "type": "integer",
+      "default": "0"
+    },
+    "date_sent": {
+      "type": "datetime"
+    },
+    "read": {
+      "type": "boolean",
+      "default": "0"
+    }
+  }
+}

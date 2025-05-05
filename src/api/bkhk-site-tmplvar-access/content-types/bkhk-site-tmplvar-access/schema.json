@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bkhk_site_tmplvar_access",
+  "info": {
+    "singularName": "bkhk-site-tmplvar-access",
+    "pluralName": "bkhk-site-tmplvar-accesss",
+    "displayName": "Bkhk site tmplvar access",
+    "description": "bkhk-site-tmplvar-access collection type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tmplvarid": {
+      "type": "integer",
+      "default": "0"
+    },
+    "documentgroup": {
+      "type": "integer",
+      "default": "0"
+    }
+  }
+}
