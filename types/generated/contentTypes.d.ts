@@ -3168,6 +3168,115 @@ export interface ApiBkhkSessionBkhkSession extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiBkhkSiteContentBkhkSiteContent
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'bkhk_site_content';
+  info: {
+    description: 'bkhk-site-content collection type';
+    displayName: 'Bkhk site content';
+    pluralName: 'bkhk-site-contents';
+    singularName: 'bkhk-site-content';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    alias: Schema.Attribute.String &
+      Schema.Attribute.SetMinMaxLength<{
+        maxLength: 255;
+      }> &
+      Schema.Attribute.DefaultTo<''>;
+    alias_visible: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<'1'>;
+    cacheable: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<'0'>;
+    class_key: Schema.Attribute.String &
+      Schema.Attribute.SetMinMaxLength<{
+        maxLength: 100;
+      }> &
+      Schema.Attribute.DefaultTo<'modDocument'>;
+    content: Schema.Attribute.Text;
+    content_dispo: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<'0'>;
+    content_type_no: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<'1'>;
+    contentType: Schema.Attribute.String &
+      Schema.Attribute.SetMinMaxLength<{
+        maxLength: 50;
+      }> &
+      Schema.Attribute.DefaultTo<'text/html'>;
+    context_key: Schema.Attribute.String &
+      Schema.Attribute.SetMinMaxLength<{
+        maxLength: 100;
+      }> &
+      Schema.Attribute.DefaultTo<'web'>;
+    createdAt: Schema.Attribute.DateTime;
+    createdby: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<'0'>;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    createdon: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<'0'>;
+    deleted: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<'0'>;
+    deletedby: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<'0'>;
+    deletedon: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<'0'>;
+    description: Schema.Attribute.Text;
+    donthit: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<'0'>;
+    editedby: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<'0'>;
+    editedon: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<'0'>;
+    hide_children_in_tree: Schema.Attribute.Boolean &
+      Schema.Attribute.DefaultTo<'0'>;
+    hidemenu: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<'0'>;
+    introtext: Schema.Attribute.Text;
+    isfolder: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<'0'>;
+    link_attributes: Schema.Attribute.String &
+      Schema.Attribute.SetMinMaxLength<{
+        maxLength: 255;
+      }> &
+      Schema.Attribute.DefaultTo<''>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::bkhk-site-content.bkhk-site-content'
+    > &
+      Schema.Attribute.Private;
+    longtitle: Schema.Attribute.String &
+      Schema.Attribute.SetMinMaxLength<{
+        maxLength: 255;
+      }> &
+      Schema.Attribute.DefaultTo<''>;
+    menuindex: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<'0'>;
+    menutitle: Schema.Attribute.String &
+      Schema.Attribute.SetMinMaxLength<{
+        maxLength: 255;
+      }> &
+      Schema.Attribute.DefaultTo<''>;
+    pagetitle: Schema.Attribute.String &
+      Schema.Attribute.SetMinMaxLength<{
+        maxLength: 255;
+      }> &
+      Schema.Attribute.DefaultTo<''>;
+    parent: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<'0'>;
+    privatemgr: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<'0'>;
+    privateweb: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<'0'>;
+    properties: Schema.Attribute.Text;
+    pub_date: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<'0'>;
+    published: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<'0'>;
+    publishedAt: Schema.Attribute.DateTime;
+    publishedby: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<'0'>;
+    publishedon: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<'0'>;
+    richtext: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<'0'>;
+    searchable: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<'0'>;
+    show_in_tree: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<'1'>;
+    template: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<'0'>;
+    type: Schema.Attribute.String &
+      Schema.Attribute.SetMinMaxLength<{
+        maxLength: 20;
+      }> &
+      Schema.Attribute.DefaultTo<'document'>;
+    unpub_date: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<'0'>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    uri: Schema.Attribute.Text;
+    uri_override: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<'0'>;
+  };
+}
+
 export interface ApiBkhkSiteHtmlsnippetsBkhkSiteHtmlsnippets
   extends Struct.CollectionTypeSchema {
   collectionName: 'bkhk_site_htmlsnippets';
@@ -5204,6 +5313,7 @@ declare module '@strapi/strapi' {
       'api::bkhk-register-topics.bkhk-register-topics': ApiBkhkRegisterTopicsBkhkRegisterTopics;
       'api::bkhk-seopro-keywords.bkhk-seopro-keywords': ApiBkhkSeoproKeywordsBkhkSeoproKeywords;
       'api::bkhk-session.bkhk-session': ApiBkhkSessionBkhkSession;
+      'api::bkhk-site-content.bkhk-site-content': ApiBkhkSiteContentBkhkSiteContent;
       'api::bkhk-site-htmlsnippets.bkhk-site-htmlsnippets': ApiBkhkSiteHtmlsnippetsBkhkSiteHtmlsnippets;
       'api::bkhk-site-plugin-events.bkhk-site-plugin-events': ApiBkhkSitePluginEventsBkhkSitePluginEvents;
       'api::bkhk-site-plugins.bkhk-site-plugins': ApiBkhkSitePluginsBkhkSitePlugins;
